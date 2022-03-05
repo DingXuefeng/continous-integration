@@ -13,11 +13,11 @@
 
 namespace A {
 struct A {
-  void run();
+    void run();
 
- private:
-  int fdlakjfldas;
+  private:
+    int fdlakjfldas;
 };
-}  // namespace A
+} // namespace A
 
-#endif  // CONTINOUS_INTEGRATION_A_H
+#endif // CONTINOUS_INTEGRATION_A_H

@@ -19,4 +19,4 @@ namespace A {
 // moer typoo: names
 // 1st
 void A::run() { std::cout << "A::A::run" << std::endl; }
-}  // namespace A
+} // namespace A
