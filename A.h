@@ -12,8 +12,8 @@
 #define CONTINOUS_INTEGRATION_A_H
 
 namespace  A {
-    class A {
-
+    struct A {
+        void run();
     };
 }
 

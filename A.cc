@@ -8,9 +8,13 @@
 // All rights reserved. 2022 copyrighted.
 /*****************************************************************************/
 
+#include <iostream>
 #include "A.h"
 
 namespace A {
     // suppose we write some typos here
     // departmant
+    void A::run() {
+        std::cout<<"A::A::run"<<std::endl;
+    }
 }

@@ -8,9 +8,13 @@
 // All rights reserved. 2022 copyrighted.
 /*****************************************************************************/
 
-#include <iostream>
+#include "A.h"
+void testA() {
+    A::A a;
+    a.run();
+}
 
 int main(void) {
-    std::cout<<"Hello world"<<std::endl;
+    testA();
     return 0;
 }
