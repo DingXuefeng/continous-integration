@@ -11,10 +11,11 @@
 #ifndef CONTINOUS_INTEGRATION_A_H
 #define CONTINOUS_INTEGRATION_A_H
 
+namespace  A {
+    class A {
 
-class A {
-
-};
+    };
+}
 
 
 #endif //CONTINOUS_INTEGRATION_A_H

@@ -9,3 +9,8 @@
 /*****************************************************************************/
 
 #include "A.h"
+
+namespace A {
+    // suppose we write some typos here
+    // departmant
+}
