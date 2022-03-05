@@ -23,14 +23,13 @@ repos:
     rev: v2.1.0
     hooks:
       - id: codespell
-  - repo: https://github.com/pocc/pre-commit-hooks
-    rev: master
+  - repo: https://github.com/pre-commit/mirrors-clang-format
+    rev: v13.0.1
     hooks:
       - id: clang-format
-        args: [ --style=Google ]
-      - id: clang-tidy
-      - id: oclint
-      - id: uncrustify
-      - id: cppcheck
-      - id: cpplint
-      - id: include-what-you-use
+        types_or: [ c++, c, cuda ]
+  - repo: https://github.com/shellcheck-py/shellcheck-py
+    rev: v0.8.0.4
+    hooks:
+      - id: shellcheck
+        stages: [manual]

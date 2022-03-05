@@ -8,16 +8,15 @@
 // All rights reserved. 2022 copyrighted.
 /*****************************************************************************/
 
-#include <iostream>
 #include "A.h"
 
+#include <iostream>
+
 namespace A {
-    // suppose we write some typos here
-    // departmant
-    // calulated->calculated
-    // moer typoo: names
-    // 1st
-    void A::run() {
-        std::cout<<"A::A::run"<<std::endl;
-    }
-}
+// suppose we write some typos here
+// departmant
+// calulated->calculated
+// moer typoo: names
+// 1st
+void A::run() { std::cout << "A::A::run" << std::endl; }
+}  // namespace A

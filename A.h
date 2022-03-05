@@ -11,11 +11,13 @@
 #ifndef CONTINOUS_INTEGRATION_A_H
 #define CONTINOUS_INTEGRATION_A_H
 
-namespace  A {
-    struct A {
-        void run();
-    };
-}
+namespace A {
+struct A {
+  void run();
 
+ private:
+  int fdlakjfldas;
+};
+}  // namespace A
 
-#endif //CONTINOUS_INTEGRATION_A_H
+#endif  // CONTINOUS_INTEGRATION_A_H
