@@ -13,10 +13,10 @@
 
 namespace A {
 struct A {
-    void run();
+  void run();
 
-  private:
-    int fdlakjfldas;
+private:
+  int fdlakjfldas;
 };
 } // namespace A
 
