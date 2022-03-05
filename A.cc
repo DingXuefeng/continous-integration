@@ -14,6 +14,7 @@
 namespace A {
     // suppose we write some typos here
     // departmant
+    // calulated->calculated
     void A::run() {
         std::cout<<"A::A::run"<<std::endl;
     }
